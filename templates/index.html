@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerología</title>
+</head>
+<body>
+    <header>
+        <h1>Numerología</h1>
+    </header>
+    <form method="post">
+        <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre">
+        <button type="submit">Enviar</button>
+    </form>
+    {% if resultado1 and resultado2 %}
+    <h2>Numeros</h2>
+    <ul>
+        <li>{{resultado1}}</li>
+        <li>{{resultado2}}</li>
+    </ul>
+    {% endif %}
+</body>
+</html>
