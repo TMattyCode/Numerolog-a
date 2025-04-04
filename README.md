@@ -1,2 +1,2 @@
 # Numerologia
-es una pagina la cual ingresas tu nombre completo y te asigna un numero
+es una pagina la cual ingresas tu nombre completo y te asigna un numero de expresion y un numero de alma
